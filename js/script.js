@@ -1,3 +1,5 @@
+// Barre des tâches
+
 const menuToggle = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('.navigation');
 menuToggle.onclick = () => {
@@ -11,3 +13,7 @@ listItems.forEach(item => {
     item.classList.add('active')
 }
 })
+
+
+//Swup
+const swup = new Swup();
