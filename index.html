@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/93877506e1.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/93877506e1.js" crossorigin="anonymous"></script> 
     <link rel="stylesheet" type="text/css" href="css/bdt.css"/>
+    <link rel="stylesheet" type="text/css" href="css/transi.css"/>
     <link rel="icon" type="image/x-icon" href="fav.png">
     <title>Urioxi</title>
 </head>
 <body>
-    
+    <main id="swup" class="transition-fade">
     <div class="container">
         <div class="navigation">
         <div class="menu-toggle"></div>
@@ -24,14 +25,14 @@
                     <span class="text">Accueil</span>
                 </a></li>
                 <li class="list-item" style="--color:#ffa117">
-                    <a href="html/parcours.html">
+                    <a href="javascript:setTimeout(()=>{window.location = 'html/parcours.html' },500);">
                     <span class="icon">
                         <i class="fa-solid fa-user"></i>
                     </span>
                     <span class="text">Parcours</span>
                 </a></li>
                 <li class="list-item" style="--color:#0fc70f">
-                    <a href="html/project.html">
+                    <a href="javascript:setTimeout(()=>{window.location = 'html/project.html' },500);">
                     <span class="icon">
                         <i class="fa-solid fa-rocket"></i>
                     </span>
@@ -47,13 +48,9 @@
             </ul>
         </div>
     </div>
-
-    <div id="swup">
-        <p>Test de swup</p>
-    </div>
+</main>
 
     <!-- 2196f3 -->
-<script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
 <script src="js/script.js"></script>
 </body>
 </html>

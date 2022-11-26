@@ -168,11 +168,3 @@
 .navigation ul li.active a .text {
     color: var(--color);
 }
-
-#swup {
-    background-color: #3d4152;
-    z-index: -1;
-    margin-top: -600px;
-    width: 100px;
-    margin-left: 500px;
-}
