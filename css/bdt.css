@@ -29,7 +29,7 @@
     align-items: center;
 }
 .navigation.open {
-    width: 250px;
+    width: 200px;
 }
 
 .navigation .menu-toggle {
