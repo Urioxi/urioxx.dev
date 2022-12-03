@@ -12,4 +12,4 @@ listItems.forEach(item => {
         listItems.forEach(item => item.classList.remove('active'))
     item.classList.add('active')
 }
-}
+})
