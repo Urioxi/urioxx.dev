@@ -1,0 +1,60 @@
+.parcours {
+    margin-top: -40%;
+}
+
+/* Icones */
+.cake, .learn, .code, .js, .practice, .future {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4a536b;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+#cake, #learn, #code, #js, #practice, #future {
+    font-size: 1.5rem;
+    margin: auto;
+    color: #fff;
+    margin-top: 12px;
+}
+
+/* Textes sur le côté */
+
+.caketxt {
+    padding: 5px;
+    background-color: #ff9a8d;
+    border-radius: 10px;
+    border: 2px solid #4a536b;
+    width: 25%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.learntxt, .codetxt, .jstxt, .practicetxt, .futuretxt {
+    padding: 5px;
+    background-color: #ff9a8d;
+    border-radius: 10px;
+    border: 2px solid #4a536b;
+    width: 25%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.caketxt:hover, .learntxt:hover, .codetxt:hover, .jstxt:hover, .practicetxt:hover, .futuretxt:hover {
+    transform: scale(1.05);
+}
+
